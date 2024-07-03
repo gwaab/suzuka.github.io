@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="banner">
+            <img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbxTIRnVbufNRInmMXsX23NoM-2ZKut45oUDZTBdlKGw5Od7SvC_GAJzUpF_nkPHd5Hg5ZUWfE95X_e4p5V23ykLBTz2q84FA=w2560-h1186"
+                alt="Cute Banner">
+        </div>
+        <div class="content-with-sidebar">
+            <aside class="sidebar">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="/">Home</a></li>
+                        <li class="nav-item"><a href="/about/">About</a></li>
+                        <li class="nav-item"><a href="/drawings/">Drawings</a></li>
+                        <li class="nav-item"><a href="/contact/">Contact</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <main class="content">
+                {{ content }}
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
